@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); 
+.header{
+    display:flex;
+    justify-content: space-between;
+   }
+.logo1{
+    border-right: 1px solid #efefef;
+    min-width: 250px;
+}
+.nav-link{
+    border-bottom: 1px solid #efefef;
+    width:100px;
+    font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+    font-size: 16px;
+    color: #363945;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: none;
+    padding:20px;
+}
+.linked{
+    color: #363945;
+    text-decoration: none;
+      
+
+}
+.item-nav-bar{
+    display:flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    }
+.nav-link1{
+    width:80px;
+    border-left: 1px solid #efefef;
+    color: #6c798b;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: none;
+    font-family: "Whitney A","Whitney B","Avenir",Helvetica,sans-serif;
+    padding:20px;
+    }
+.login{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.dropdown-content:hover {background-color: #ddd;
+display:block;}
+.dropdown-content{
+    display:none;
+    background-color: yellow;
+    padding: 20px;
+}
+
+
+
+.video{
+    background-color:rgba(190, 126, 137, 0.8); 
+    display:flex;
+    flex-flow:raw wrap;
+    justify-content: space-around;
+    align-items: center;  
+    font-family: "Walsheim", sans-serif;   
+    color: #363945;
+    font-size: 2.6em;
+    padding-left: 20px;
+    }
+    .under-video{
+        align-items: center;
+    }
+.link-button-watch-video{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Whitney A", "Whitney B", "Avenir", Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    padding: 19px 22px;
+    background-color: white;
+    min-width: 178px;
+    color: #363945;
+    font-size: 20px;
+    border: 1px solid #EFEFEF;   
+    }
+.choices-under-video{
+    display:flex;
+    justify-content: stretch;
+    
+        
+}
+.boxs-choise1{
+    display:flex;
+    background-color: #FED24A; 
+    padding: 45px 58px 50px;
+    flex-flow: row wrap;
+    font-family: "Walsheim", sans-serif;
+   }
+.boxs-choise2{
+    display:flex;
+    background-color: #51C29F; 
+    padding: 45px 58px 50px;
+    flex-flow: row wrap;
+    font-family: "Walsheim", sans-serif;
+    }
+.boxs-choise3{
+    display:flex;
+    background-color: #3EA9F5; 
+    padding: 45px 58px 50px;
+    flex-flow: row wrap;
+    font-family: "Walsheim", sans-serif;
+    }
+.tit{
+    color:white;
+    font-size: 20px;
+    font-family: "Walsheim", sans-serif;
+    font-weight: bold;
+}
+.under-tit{
+    color: #363945;
+    font-size: 20px;
+    font-family: "Walsheim", sans-serif;
+}
+.linked1{    
+    padding: 17px 16px;
+    font-family: "Walsheim", sans-serif;
+    background-color: transparent;
+    border: 2px solid #EFEFEF;
+    padding: 17px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    margin: 36px;    
+    width: 178px;    
+    color: #363945;
+    font-size: 17px;
+    }
+    .linked1:hover{
+        background-color:white;
+    }
+    .logos{
+        display:flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        padding:40px 0 40px 0;
+       
+    }
+    .logo2{
+        min-width:199px;
+        padding:20px 0px;
+        text-align:center;
+    }
+    .logo-words{
+       width:120px;
+       font-family: "Walsheim", sans-serif;
+       color:#3ea9f5;
+       font-size:17px;
+    }
+    
+    .pics{
+      display:flex;
+        justify-content: stretch;
+        flex-flow: row wrap;   
+        
+        text-align:center;
+        
+    }
+    .pic{
+        width:401px;
+        padding:40px 0px 40px 0px;
+        text-align: center;
+    }
+    .img1:hover{
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        }
+        
+    .parag-small-tilte{
+        font-size:17px;
+        color: #363945;
+        font-family: "Walsheim", sans-serif;
+        text-align: center;
+        padding:20px 35px 20px 35px;
+        
+    }
+    .small-title{
+        color: #363945;
+        font-family: "Walsheim", sans-serif;
+        font-size: 1.12em;
+        font-weight: bold;
+        
+    }
+    .link{
+        font-size:17px;
+        color: #217AD5;
+        font-family: "Walsheim", sans-serif;
+        text-align: center;
+        padding:20px 35px 20px 35px;
+    }
+    .down{
+        background-color:pink;
+        height: 70px;
+    }
+    .down-words{
+        color:#777777;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom:20px;
+        font-size: 18px;
+        font-family: "Walsheim", sans-serif;
+    
+    }
+    .down-words a{
+        text-decoration:underline;
+        color:#777777
+    }
+    .footer{
+        background: #2A2D35;
+    }
+    .bloc1-footer{
+        display:flex;
+        justify-content:space-around;
+        flex-direction: column;
+        width:300px;
+        padding:2%;
+       
+    }
+    .bloc-footer{
+        display:flex;
+        
+        
+        
+        
+    }
+    .informations{
+        display:flex;
+        flex-direction: row; 
+       
+        }
+    .information{
+        display:flex;
+        flex-direction:column;
+        justify-content: flex-start;
+        
+        padding:20px;
+        
+    }
+    li{
+        list-style:none;
+        padding-top:10px;
+        font-weight: 100;
+        width:130px;
+        font-size: 100%
+       }
+    .footer-wistia{
+        font-size:150%;
+        color:white;
+        font-family:"Walsheim", sans-serif;
+    }
+    .bbb{
+        width:90%;
+    }
+    .p1{
+        color:white;
+        font-size:120%;
+        font-family:"Walsheim", sans-serif;
+        font-weight: 500;
+        
+    }
+    footer a{
+        text-decoration: none;
+        color: #b2b9c1;
+        font-family:"Walsheim", sans-serif;
+    }
+    .footer a:hover{
+        text-decoration: underline;
+    }
+    ul{
+       
+        align-text:center;
+        
+    }
+    .information .p1{
+        padding-left:40px;
+        padding-bottom:0px;
+
+    }
+    .privacy{
+        text-align: center;
+        padding:2%;
+    }
+
+    
